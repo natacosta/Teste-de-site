@@ -1,0 +1,157 @@
+
+:root{
+    --cor1 : rgb(92, 94, 93);
+    --cor2 :rgb(#F2F2F0);
+    -cor3  : rgb(#F8F8F8);
+
+}
+
+
+
+.bg{
+    background-color: var(--cor1)
+}
+.título_principal{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 130px;
+}
+
+
+.box1{
+    background-image: linear-gradient(rgb(92, 94, 93), black);
+    height: 300px;
+}
+.box2{
+    background: rgb(#F2F2F0);
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(./img/pexels-sound-on-3394653.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3{
+    background-color: var(--cor2);
+    height: 520px;
+    overflow: hidden;
+    
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.produtos{
+    text-align: center;
+    padding-top:210px ;
+    font-size: 34px;
+    
+}
+
+p{
+    text-align: justify;
+}
+
+.conheça{
+    text-align: center;
+}
+
+.sobre{
+    background-color: var(--cor1);
+    height: 900px;
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+#sobre{
+    padding-bottom: 30px;
+}
+
+.carta{
+    width: 90%;
+    background-color: #F8F8F8;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 6px;
+    position: relative;
+    transform-style: preserve-3d;    /* preservar 3d */
+    transition:transform 1s;
+    
+}   
+
+.carta_frente, .carta_fundo{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    position: absolute;
+    backface-visibility: hidden;      /* tudo oque está invertido não será mostrado */
+    border-radius: 4px;
+
+}
+.carta_frente{
+    background-color: #E1E1E1;
+    transform: rotateY(180deg);
+}
+.carta_fundo{
+    background-color: #E1E1E1;
+    overflow: hidden;
+}
+.carta_principal{
+    display: flex;
+    justify-content: center;
+    overflow:auto;
+}
+
+.flip:hover{
+    transform: rotatey(180deg);
+}
+
+.fundador{
+    background-image: url(./img/face.jpg);
+    width: 300px;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: 10px;
+
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    overflow: hidden;
+}
+
+.contato{
+    color: white;
+    text-align: center;
+}
+
+.pill{
+   background-color: #E1E1E1;
+    width: 108px;
+    height: 5px;
+    margin: auto;
+    display: block;
+}
+
+.telefone{
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+}
+.tel{
+    color: white;
+    text-align: center;
+    
+}
+
+.info{
+    color: white;
+    text-align: center;
+}

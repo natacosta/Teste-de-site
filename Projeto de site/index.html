@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Importação do JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Importação do boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+    <header>
+        
+        <div class="bg navbar navbar-expand-sm navbar-dark  ">
+            <div class="navbar-brand">
+                <img src="icon/outline_headphones_white_24dp.png" alt="logo">
+            </div>
+            
+            <button   class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div id="menu" class="collapse navbar-collapse justify-content-end " >
+                <ul class="navbar-nav align-items-center">
+                    <li class="navbar item "> <a href="#" class="nav-link"> Home     </a>
+                    <li class="navbar item">  <a href="#contato" class="nav-link"> Contatos </a>
+                    <li class="navbar item">  <a href="#sobre" class="nav-link"> Sobre    </a>
+                </ul>
+            </div>
+        
+        </div>
+    </header>
+
+    <section>
+
+        <div class="container-fluid" >
+
+            <div class="row">
+
+                <div class="box1 col-lg-12">  
+                    
+                    <div class="título_principal">
+                        <H1> MAXX AUDIO </H1>
+                    </div>
+                    
+                </div>
+
+                <!-- conheça nosso produto -->
+                <div class="box2 col-lg-6"> 
+
+                    <div class="produtos">
+                    
+                        <p class="conheça"> Conheça nossos produtos </p>
+
+                        <button class="btn btn-dark" > <a href=""></a> Clique aqui </button>
+                        
+
+                    </div>
+
+                </div>
+
+                <!-- container opiniões -->
+                <div class="box3 col-lg-6">  
+
+                    <h2 class="text-center"> Opinião de nossos clientes </h2>
+
+                    <!-- Carrossel de opiniões -->
+                    <div class="carousel slide " data-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active"> 
+                                
+                                <div class="card text-center" style="border: none;">      <!--card 1-->
+
+                                    <div class="card-body">
+            
+                                        <img class=" imagem img-fluid" src="./img/maria.jpg" alt="maria feliz com seu novo fone ">
+
+                                        <div class="card-title">
+                                            <h2> Maria </h2>
+                                        </div>
+
+                                        <div class="card-text">
+
+                                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque tempore, architecto vero explicabo nemo asperiores consectetur sequi odio quis obcaecati saepe reprehenderit cumque?</p>
+
+                                        </div>
+            
+                                    </div>
+            
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">    <!--card 2-->
+
+
+                                <div class="card text-center" style="border: none;">      
+
+                                    <div class="card-body">
+            
+                                        <img class=" imagem img-fluid" src="./img/pexels-sound-on-3394667.jpg" alt="maria feliz com seu novo fone ">
+
+                                        <div class="card-title">
+                                            <h2> João </h2>
+                                        </div>
+
+                                        <div class="card-text">
+
+                                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque tempore, architecto vero explicabo nemo asperiores consectetur sequi odio quis obcaecati saepe reprehenderit cumque? Sed fugit error quisquam veniam eos!</p>
+
+                                        </div>
+            
+                                    </div>
+            
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item"> 
+                                
+                                <div class="card text-center" style="border: none;">      <!--card 3-->
+
+                                    <div class="card-body">
+            
+                                        <img class=" imagem img-fluid " src="./img/pexels-andrea-piacquadio-3779414.jpg" alt="maria feliz com seu novo fone ">
+
+                                        <div class="card-title">
+                                            <h2> José </h2>
+                                        </div>
+
+                                        <div class="card-text">
+
+                                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis atque tempore, architecto vero explicabo. </p>
+
+                                        </div>
+            
+                                    </div>
+            
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+
+        <div class="row carta_principal">
+
+            <div class="sobre col-lg-12"> 
+
+                <h3 id="sobre"> Sobre </h3>
+
+
+                <div class="carta mx-auto flip" >
+
+                    <div class="carta_frente">
+                        
+                        <h3> Nossa historia </h3>
+                        
+                        <hr>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, itaque. Similique sunt, necessitatibus molestiae et sint aut! Doloremque reiciendis, accusamus libero, ea velit officiis neque minus, aperiam numquam iste totam!</p>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt temporibus deleniti beatae, suscipit exercitationem libero. Quod perferendis asperiores veritatis debitis esse, rerum itaque similique qui eum nemo error est non.</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi laboriosam est sunt dolor neque facere earum quod fugit illo molestias sapiente et voluptatem qui ab, commodi ratione quo voluptas quis.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae ipsum maiores omnis ab, at magnam cupiditate commodi, hic quibusdam tenetur, distinctio accusamus adipisci saepe deleniti eligendi? Totam mollitia illo odio?
+                        
+                        </p>
+                        
+                    </div>
+
+                    <div class="carta_fundo" >
+
+                        <h3> Nosso fundador </h3>
+
+                        <hr>
+
+                        <div class="fundador">
+
+                        </div>
+
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam obcaecati, reprehenderit repellendus dignissimos ad eveniet consequatur ex magnam natus cum, quas voluptatem, id repellat pariatur vero a consectetur itaque perferendis!
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum molestiae repellendus nobis unde tempora ipsa harum quisquam explicabo odit dolorem dicta sunt, soluta pariatur. Delectus doloremque suscipit facere obcaecati culpa!
+                            Lorem ipsum, dolor sit amet consectetur.
+                        </p>
+
+                    </div>
+
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="row">
+        
+
+
+        <ul class="nav nav-pills nav-fill justify-content-center">
+
+            <li class="nav-item"> <a class="nav-link" href="#contatos" data-toggle="tab" > Contatos      </a>
+            <li class="nav-item"> <a class="nav-link" href="#localização"data-toggle="tab" > Localização </a>
+            <li class="nav-item"> <a class="nav-link" href="#info" data-toggle="tab"> Info</a>
+
+        </ul>
+
+        <div class="tab-content">
+
+            <div class="tab-pane" id="contatos">
+
+                <h3 class="contato"> Contatos </h3>
+                <div class="pill"></div>
+                <img class="telefone" src="icon/outline_local_phone_white_24dp.png" alt="telefone">
+                <p class="tel"> (034) 98888-0344 </p>
+
+            </div>
+
+            <div class="tab-pane" id="localização">
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120774.86487327391!2d-48.33360576049513!3d-18.921896225519188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a4450c10bbbaef%3A0xae370c93616d5c9c!2zVWJlcmzDom5kaWEsIE1H!5e0!3m2!1spt-BR!2sbr!4v1645059857463!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0; display: block; margin: auto;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <div class="tab-pane" id="info">
+
+                <p class="info">
+                    Este projeto de site ainda está em desenvolvimento e contem alguns bugs, entretanto está otimizado para telefones e para computadores, e foi criado com o intuito de 
+                    demostrar habilidades em Bootstrap: cards, flips , navbar  e nav.
+
+                </p>
+
+            </div>
+
+        </div>
+        
+
+
+
+        
+
+
+    </footer>
+
+    
+    
+    
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
